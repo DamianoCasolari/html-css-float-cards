@@ -1,0 +1,50 @@
+/* Generic selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+    
+}
+
+/* utility selector */
+:root {
+    --clr-violet: #e53170;
+    --clr-dark: #0f0e17;
+    --clr-heavenly: #1ccade;
+}
+
+.debug .col {
+    height: 100px;
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+
+
+
+h1 {
+    color: var(--clr-violet);
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Main selector  */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container p {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.container .col {
+    float: left;
+    width: calc(100% / 3);
+    padding: 10px;
+}
