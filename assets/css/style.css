@@ -52,7 +52,7 @@ h1 {
 
 .container .col {
     float: left;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 20px);
     margin: 10px;
     color: var(--clr-white);
     background-color: var(--clr-dark);
