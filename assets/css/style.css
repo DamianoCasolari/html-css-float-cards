@@ -16,11 +16,12 @@
     --clr-white: white;
 }
 
-.debug .col {
+/* utility debug */
+/* .debug .col {
     height: 100px;
     background-color: black;
     border: 2px solid yellow;
-}
+} */
 
 .clearfix::after {
     content: "";
@@ -58,7 +59,7 @@ h1 {
 }
 
 .col img {
-    height: 100%;
+    height: 100px;
     float: left;
     margin-right: 10px;
 }
