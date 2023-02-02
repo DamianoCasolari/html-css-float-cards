@@ -71,4 +71,5 @@ h1 {
 .col address {
     color: var(--clr-heavenly);
     font-weight: bold;
+    font-style: none;
 }
